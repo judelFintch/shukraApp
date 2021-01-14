@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.login')
 
 @section('content')
 <div class="container">
@@ -66,10 +66,6 @@
                                 <button type="submit" class="btn btn-primary">
                                     {{ __('Register') }}
                                 </button>
-
-                                <a class="btn btn-link" href="{{ route('login') }}">
-                                        {{ __('if your menber click here') }}
-                                    </a>
                             </div>
                         </div>
                     </form>

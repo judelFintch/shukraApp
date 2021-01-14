@@ -13,13 +13,9 @@ use Illuminate\Support\Facades\Route;
 
 |
 */
-
-Route::get('/', function () {return view('auth.login');});
-
+//user default folder for not auth users
+Route::get('/', function (){return view('default.index');})->name('default');;
 Auth::routes();
-Route::get('/admin', [App\Http\Controllers\AdminController::class, 'index'])->middleware('admin')->name('admin');
-Route::get('/manager', [App\Http\Controllers\ManagerController::class, 'index'])->middleware('manager')->name('manager');
-Route::get('/user', [App\Http\Controllers\UserController::class, 'index'])->middleware('user')->name('user');
-
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home')->middleware('auth');
 
 

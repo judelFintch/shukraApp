@@ -63,15 +63,11 @@ class RegisterController extends Controller
      * @return \App\Models\User
      */
     protected function create(array $data)
-    { 
-        $default=1;
+    {
         return User::create([
-            //Default role
-            
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
-            'role' => $default,
         ]);
     }
 }
