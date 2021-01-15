@@ -14,8 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 //user default folder for not auth users
-Route::get('/', function (){return view('default.index');})->name('default');;
+Route::name('default')->get('/', function (){return view('default.index');});
 Auth::routes();
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home')->middleware('auth');
+Route::name('home')->get('/home', [App\Http\Controllers\HomeController::class, 'index'])->middleware('auth');
 
 

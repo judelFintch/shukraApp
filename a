@@ -1,0 +1,32 @@
+[33mcommit 633d469d5a104db1868f64ebd3e145a101354491[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: judel Fintch <judfintch@gmail.com>
+Date:   Thu Jan 14 15:52:03 2021 +0100
+
+    nav set
+
+[33mcommit ce11306bd20bf4433170ecbdaab298cc98ca19c1[m
+Merge: 250d9bd 3a98c7e
+Author: judelFintch <71493804+judelFintch@users.noreply.github.com>
+Date:   Tue Jan 12 15:47:20 2021 +0100
+
+    Merge pull request #1 from judelFintch/devjudel
+    
+    add auth, first design
+
+[33mcommit 3a98c7eddb6b8fea4dc5420a8bedd8b8864572c9[m[33m ([m[1;31morigin/devjudel[m[33m)[m
+Author: judel Fintch <judfintch@gmail.com>
+Date:   Tue Jan 12 16:43:37 2021 +0100
+
+    add auth, first design
+
+[33mcommit 250d9bdb6558b85d365ff410845b4791aef88c06[m[33m ([m[1;31morigin/backup[m[33m)[m
+Author: judel Fintch <judfintch@gmail.comgit config --global user.email judfintch@gmail.com>
+Date:   Sat Jan 9 14:26:34 2021 +0100
+
+    base lws
+
+[33mcommit 0c766042e923d2b10406d090636bd9408f65bb79[m
+Author: judel Fintch <judfintch@gmail.comgit config --global user.email judfintch@gmail.com>
+Date:   Sat Jan 9 14:17:10 2021 +0100
+
+    first commit
